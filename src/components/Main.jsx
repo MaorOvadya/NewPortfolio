@@ -10,7 +10,7 @@ export default function Main() {
       <HomeButton />
       <Home />
       <About />
-      <Projects />
+      {/* <Projects /> */}
       <Contact />
     </div>
   );
