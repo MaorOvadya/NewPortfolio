@@ -134,7 +134,7 @@ export default function Form() {
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
               onFocus={() => handleInputChange("fullName")}
-              className="rounded-[5px] w-[15rem] sm:w-[30rem] lg:w-[40rem] py-1 border-[0.5px] border-[#222222] bg-inherit px-1 font-light"
+              className="rounded-[5px] w-[20rem] sm:w-[30rem] lg:w-[40rem] py-1 border-[0.5px] border-[#222222] bg-inherit px-1 font-light"
             />
             <p className="text-xs pt-[3px] text-red-500 font-light">
               {fullNameError}
@@ -152,7 +152,7 @@ export default function Form() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               onFocus={() => handleInputChange("email")}
-              className="rounded-[5px] w-[15rem] sm:w-[30rem] lg:w-[40rem] py-1 border-[0.5px] border-[#222222] bg-inherit px-1 font-light"
+              className="rounded-[5px] w-[20rem] sm:w-[30rem] lg:w-[40rem] py-1 border-[0.5px] border-[#222222] bg-inherit px-1 font-light"
             />
             <p className="text-xs pt-[3px] text-red-500 font-light">
               {emailError}
@@ -172,7 +172,7 @@ export default function Form() {
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
               onFocus={() => handleInputChange("subject")}
-              className="rounded-[5px] w-[15rem] sm:w-[30rem] lg:w-[40rem] py-1 border-[0.5px] border-[#222222] bg-inherit px-1 font-light"
+              className="rounded-[5px] w-[20rem] sm:w-[30rem] lg:w-[40rem] py-1 border-[0.5px] border-[#222222] bg-inherit px-1 font-light"
             />
             <p className="text-xs pt-[3px] text-red-500 font-light">
               {subjectError}
@@ -190,7 +190,7 @@ export default function Form() {
               value={messageBox}
               onChange={(e) => setMessageBox(e.target.value)}
               onFocus={() => handleInputChange("messageBox")}
-              className=" w-[15rem] sm:w-[30rem] lg:w-[40rem] rounded-[5px] border-[0.5px] border-[#222222] bg-inherit px-1 font-light"
+              className=" w-[20rem] sm:w-[30rem] lg:w-[40rem] rounded-[5px] border-[0.5px] border-[#222222] bg-inherit px-1 font-light"
             ></textarea>
             <p className="text-xs text-red-500 pt-[3px] font-light">
               {messageBoxError}
