@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.active {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    transition-property: all;
+    transition: ease-in-out;
+    transition-duration: 700ms;
+}
