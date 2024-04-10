@@ -15,27 +15,27 @@ export default function Mobile() {
         onClick={handleClick}
         className="z-40 cursor-pointer absolute w-10 h-10 top-5 right-5 hover:bg-[#C60F52] hover:rounded-lg rounded-lg transition-all duration-700 ease-in-out"
       >
-        <span
+        <a
           className={`w-[30px] h-[2.5px] bg-white absolute left-[5px] top-3 ${
             isOpen
               ? "rotate-[50deg] top-[20px] transition-all duration-500 ease-in-out"
               : "rotate-0 transition-all duration-500 ease-in-out"
           } `}
-        ></span>
-        <span
+        ></a>
+        <a
           className={`w-[30px] h-[2.5px] bg-white absolute left-[5px] top-5 ${
             isOpen
               ? "hidden "
               : "block transition-all duration-1000 ease-in-out"
           } `}
-        ></span>
-        <span
+        ></a>
+        <a
           className={`w-[30px] h-[2.5px] bg-white absolute left-[5px] top-7 ${
             isOpen
               ? "rotate-[-50deg] top-[20px] transition-all duration-500 ease-in-out"
               : "rotate-0 transition-all duration-500 ease-in-out"
           } `}
-        ></span>
+        ></a>
       </section>
       <section
         className={`z-0 text-center w-full top-20 bg-[#222222] md:gap-5 lg:gap-10 transition-all duration-700 ease-in-out ${
