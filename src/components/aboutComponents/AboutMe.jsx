@@ -3,7 +3,7 @@ import image from "../../assets/aboutMeImage.jpeg";
 export default function aboutMe() {
   return (
     <section className="flex-col md:flex justify-center md:flex-row md:py-10">
-      <div className="self-center text-left p-5 lg:px-20">
+      <div className="self-center text-center md:text-left p-5 lg:px-20">
         {aboutMeText.split("\n").map((a, index) => (
           <p
             className="text-balance leading-relaxed text-xs md:text-ms lg:text-base"

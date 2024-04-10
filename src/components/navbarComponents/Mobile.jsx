@@ -25,7 +25,7 @@ export default function Mobile() {
         <span
           className={`w-[30px] h-[2.5px] bg-white absolute left-[5px] top-5 ${
             isOpen
-              ? "hidden transition-all duration-1000 ease-in-out"
+              ? "hidden "
               : "block transition-all duration-1000 ease-in-out"
           } `}
         ></span>
@@ -44,16 +44,6 @@ export default function Mobile() {
       >
         {isOpen ? (
           <ul className=" z-0 absolute w-screen justify-center bg-[#222222] md:gap-5 lg:gap-10 transition-all duration-700 ease-in-out">
-            {/* <Link
-              className=" flex justify-center px-[1rem] py-2 cursor-pointer transition-all duration-700 ease-in-out hover:text-[#222222] hover:bg-white"
-              to="home"
-              spy={true}
-              smooth="true"
-              duration={500}
-              onClick={handleClick}
-            >
-              Home
-            </Link> */}
             <Link
               className=" py-3 flex justify-center px-[1rem] py-2 cursor-pointer transition-all duration-700 ease-in-out hover:text-[#222222] hover:bg-white"
               to="about"

@@ -9,7 +9,7 @@ import Limage from "../../assets/projects-images/sitePicL.png";
 export default function Projects() {
   return (
     <div className="projects">
-      <Title title="my work" number="02." />
+      <Title title="my work" />
 
       <section className="flex flex-col">
         {projects.map((project) => {

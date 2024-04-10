@@ -1,4 +1,4 @@
-export default function Title({ title, number }) {
+export default function Title({ title, number = "" }) {
   return (
     <div className="capitalize text-left px-10 md:px-20 py-10 tracking-wides bg-[#222222] text-white ">
       <p className="">

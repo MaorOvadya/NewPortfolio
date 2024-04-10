@@ -26,7 +26,7 @@ import { DiMysql } from "react-icons/di";
 export default function Skills() {
   return (
     <div>
-      <SubTitle title="skills" number="01.02." />
+      <SubTitle title="skills" />
       <section className="flex flex-col items-center pb-10 text-white bg-[#222222]">
         <h2 className="p-10">Languages & Libraries</h2>
         <section className="flex flex-row flex-wrap justify-center">
