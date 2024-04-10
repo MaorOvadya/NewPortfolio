@@ -25,7 +25,7 @@ export default function Projects() {
                       target="_blank"
                       href={project.gitRipo}
                       rel="noreferrer"
-                      alt="Git hub Reposetory"
+                      aria-label="Github reposetory button"
                     >
                       <FaGithub />
                     </a>
@@ -34,7 +34,7 @@ export default function Projects() {
                       target="_blank"
                       href={project.webSite}
                       rel="noreferrer"
-                      alt="Website link"
+                      aria-label="Website link button"
                     >
                       <BsBoxArrowDownLeft />
                     </a>

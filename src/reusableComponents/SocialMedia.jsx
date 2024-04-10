@@ -7,6 +7,7 @@ export default function SocialMedia() {
           href="https://www.facebook.com/maor.ovadya/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Facebook button"
         >
           <FaFacebookSquare />
         </a>
@@ -14,6 +15,7 @@ export default function SocialMedia() {
           href="https://www.linkedin.com/in/maorovadya/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Linkedin button"
         >
           <FaLinkedin />
         </a>
@@ -21,6 +23,7 @@ export default function SocialMedia() {
           href="https://github.com/MaorOvadya"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Github button"
         >
           <FaGithubSquare />
         </a>
