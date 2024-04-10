@@ -25,6 +25,7 @@ export default function Projects() {
                       target="_blank"
                       href={project.gitRipo}
                       rel="noreferrer"
+                      alt="Git hub Reposetory"
                     >
                       <FaGithub />
                     </a>
@@ -33,6 +34,7 @@ export default function Projects() {
                       target="_blank"
                       href={project.webSite}
                       rel="noreferrer"
+                      alt="Website link"
                     >
                       <BsBoxArrowDownLeft />
                     </a>
@@ -55,28 +57,12 @@ export default function Projects() {
     </div>
   );
 }
-{
-  /* <div className="projects">
-<Title title="my work" number="02." />
-
-<section className="flex flex-col">
-  {projects.map((project) => {
-    return (
-      <div key={project.id}>
-        {project.image}
-        {project.project}
-      </div>
-    );
-  })}
-</section>
-</div> */
-}
 
 const projects = [
   {
     id: 2,
     title: "Teddies Vs Monster",
-    img: <img src={Timage} alt="" />,
+    img: <img src={Timage} alt="Teddies Vs Monster image" />,
     article: `The E-Commerce Platform for the gaming board,Teddies Vs Monsters
     Board Game, is an engaging and fun board game where players take on
     the roles of teddy bears defending their realm against menacing
@@ -89,7 +75,7 @@ const projects = [
   {
     id: 1,
     title: "Airline Website",
-    img: <img src={Limage} alt="" />,
+    img: <img src={Limage} alt="Airline Website image" />,
     article: `The Airline Website is a static, responsive website that exclusively
     features the structural elements and CSS for its design.`,
     developmentTools: `Html,Sass`,
