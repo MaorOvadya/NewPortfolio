@@ -1,7 +1,7 @@
 export default function ProjectModel({ closeModal, project }) {
   return (
     <div className="static">
-      <section className="z-40 absolute  left-[10%] w-[80%] h-[50%] bg-white border-2 border-black ">
+      <section className="z-40 absolute left-[10%] w-[80%] h-[50%] bg-white border-2 border-black ">
         <button onClick={closeModal}>Close</button>
         {project && (
           <div>

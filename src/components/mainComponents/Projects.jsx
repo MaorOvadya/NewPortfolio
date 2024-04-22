@@ -11,15 +11,18 @@ export default function Projects() {
     <div className="projects">
       <Title title="my work" />
 
-      <section className="flex flex-col">
+      <section className="flex flex-wrap justify-center">
         {projects.map((project) => {
           return (
-            <div key={project.id} className="flex flex-col lg:flex-row ">
-              <div className="flex items-stretch w-full">{project.img}</div>
+            <div
+              key={project.id}
+              className="flex md:max-w-80 rounded-[18px] bg-[rgb(198,15,82)] flex-col mx-5 my-8 md:my-10 "
+            >
+              <div>{project.img}</div>
               <section className=" text-[#222222] flex flex-col justify-center items-center tracking-wide w-full">
-                <div className="text-xl md:text-3xl text-center pb-10 pt-20 flex">
+                <div className="text-xl text-center pb-5 pt-5 flex-col">
                   {project.title}
-                  <button className=" text-white mx-10 flex items-center gap-5 text-lg md:text-2xl">
+                  <button className=" text-white m-auto pt-5 flex gap-5 text-md md:text-xl">
                     <a
                       className="bg-[#C60F52] p-2 rounded-md"
                       target="_blank"
@@ -40,11 +43,11 @@ export default function Projects() {
                     </a>
                   </button>
                 </div>
-                <article className="mx-5 md:mx-0 md:w-[500px] p-5 rounded-md bg-[#C60F52] text-white leading-relaxed text-sm">
+                <article className="md:mx-2 md:w-fit p-5 rounded-md bg-[#222222] text-white leading-relaxed text-sm">
                   {project.article}
                 </article>
-                <div className="text-center md:text-left md:w-[500px] my-10 leading-relaxed text-sm">
-                  <div className="text-xl underline underline-offset-2">
+                <div className="text-center md:w-fit my-10 leading-relaxed text-sm text-white">
+                  <div className="text-sm md:text-xl underline underline-offset-2">
                     Development tools:
                   </div>
                   <article>{project.developmentTools}</article>
@@ -62,7 +65,13 @@ const projects = [
   {
     id: 2,
     title: "Teddies Vs Monster",
-    img: <img src={Timage} alt="Teddies Vs Monster image" />,
+    img: (
+      <img
+        className="md:h-[210px] rounded-t-[16px]"
+        src={Timage}
+        alt="Teddies Vs Monster image"
+      />
+    ),
     article: `The E-Commerce Platform for the gaming board,Teddies Vs Monsters
     Board Game, is an engaging and fun board game where players take on
     the roles of teddy bears defending their realm against menacing
@@ -75,8 +84,14 @@ const projects = [
   {
     id: 1,
     title: "Airline Website",
-    img: <img src={Limage} alt="Airline Website image" />,
-    article: `The Airline Website is a static, responsive website that exclusively
+    img: (
+      <img
+        className="md:h-[210px] rounded-t-[16px]"
+        src={Limage}
+        alt="Airline Website image"
+      />
+    ),
+    article: `Website is a static, responsive website that exclusively
     features the structural elements and CSS for its design.`,
     developmentTools: `Html,Sass`,
     gitRipo: "https://github.com/MaorOvadya/landingPage",
