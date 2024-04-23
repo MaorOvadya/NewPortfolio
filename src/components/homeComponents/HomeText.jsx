@@ -1,6 +1,6 @@
 export default function HomeText() {
   return (
-    <div className="capitalize text-left px-10 md:px-20 pb-5 pt-20 tracking-wides text-white ">
+    <div className="capitalize text-left px-10 md:px-20 pb-5 pt-5 md:pt-20 md:pb-10 tracking-wides text-white ">
       <section className="">
         <p className="text-base md:text-lg">hi,my name is</p>
         <p className="text-4xl md:text-8xl">maor ovadya</p>

@@ -15,9 +15,12 @@ export default function Form() {
   const [subjectError, setSubjectError] = useState("");
   const [messageBoxError, setMessageBoxError] = useState("");
 
-  useEffect(() => {
-    console.log(fullNameError, emailError, subjectError, messageBoxError);
-  }, [fullNameError, emailError, subjectError, messageBoxError]);
+  useEffect(() => {}, [
+    fullNameError,
+    emailError,
+    subjectError,
+    messageBoxError,
+  ]);
 
   const handleInputChange = (field) => {
     switch (field) {
