@@ -19,6 +19,7 @@ import {
   SiVisualstudio,
   SiVite,
   SiExpress,
+  SiFramer,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { DiMysql } from "react-icons/di";
@@ -135,6 +136,10 @@ const frameworkEnvironment = [
   {
     icon: <FaFigma />,
     text: "Figma",
+  },
+  {
+    icon: <SiFramer />,
+    text: "Framer",
   },
   {
     icon: <SiVisualstudio />,
