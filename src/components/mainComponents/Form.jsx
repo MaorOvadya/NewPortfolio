@@ -54,8 +54,8 @@ export default function Form() {
     // Validation logic with regex
     const nameRegex = /^[a-zA-Z\s]{5,}$/;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const subjectRegex = /^[a-zA-Z\s]{4,}$/;
-    const messageBoxRegex = /^.{20,}$/;
+    const subjectRegex = /^[a-zA-Z0-9\s,.\n\s]{4,}$/;
+    const messageBoxRegex = /^[a-zA-Z0-9\s,.\n]{20,}$/;
 
     // check if the condition validation ture
     let hasError = false;

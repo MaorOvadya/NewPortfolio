@@ -5,6 +5,7 @@ import { BsBoxArrowDownLeft } from "react-icons/bs";
 
 import Timage from "../../assets/projects-images/sitePicT.webp";
 import Limage from "../../assets/projects-images/sitePicL.png";
+import NoteApp from "../../assets/projects-images/NoteApp.png";
 
 export default function Projects() {
   return (
@@ -96,5 +97,25 @@ const projects = [
     developmentTools: `Html,Sass`,
     gitRipo: "https://github.com/MaorOvadya/landingPage",
     webSite: "https://main--lifeairline.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "Note App",
+    img: (
+      <img
+        className="md:h-[210px] rounded-t-[16px]"
+        src={NoteApp}
+        alt="Note App Website image"
+      />
+    ),
+    article: `NoteApp is a single-page application designed for efficient note management.
+    Add New Notes: Users can create notes with a title and body.
+    Delete Notes: Existing notes can be easily removed.
+    Persistent Storage: Notes are saved in local storage, ensuring they remain available across sessions.
+    Loading Indicator: A visual indicator is displayed while notes are being loaded.
+    Empty State Message: When there are no notes, a "No notes to show" message is displayed to inform the use`,
+    developmentTools: `React,JavaScript,Css`,
+    gitRipo: "https://github.com/MaorOvadya/noteApp",
+    webSite: "https://noteappsv.netlify.app/",
   },
 ];
