@@ -109,11 +109,11 @@ const projects = [
       />
     ),
     article: `NoteApp is a single-page application designed for efficient note management.
-    Add New Notes: Users can create notes with a title and body.
-    Delete Notes: Existing notes can be easily removed.
-    Persistent Storage: Notes are saved in local storage, ensuring they remain available across sessions.
-    Loading Indicator: A visual indicator is displayed while notes are being loaded.
-    Empty State Message: When there are no notes, a "No notes to show" message is displayed to inform the use`,
+    Users can create notes with a title and body.
+    Existing notes can be easily removed.
+    Notes are saved in local storage, ensuring they remain available across sessions.
+    A visual indicator is displayed while notes are being loaded.
+    When there are no notes, a "No notes to show" message is displayed`,
     developmentTools: `React,JavaScript,Css`,
     gitRipo: "https://github.com/MaorOvadya/noteApp",
     webSite: "https://noteappsv.netlify.app/",
